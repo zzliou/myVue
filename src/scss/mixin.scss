@@ -1,0 +1,5 @@
+@mixin change {
+    @media (max-width: 500px) {
+      @content;
+    }
+}
